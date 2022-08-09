@@ -19,14 +19,14 @@ The program stores the data relating to the current accounts in a hash table wit
 - Inserting a new current account. (Functionality already provided)
 - Withdrawal or deposit for a current account.
 - Calculation of the total number of deposit and withdrawal operations and the sum of the balances for all current accounts.
-• Search for the current account with the largest balance.
-• Screen printing of current accounts. (Functionality already provided)
+- Search for the current account with the largest balance.
+- Screen printing of current accounts. (Functionality already provided)
 
 ## Given files
 For the implementation of the application, the student has at his disposal:
-• The files needed to create the entire project;
-• The standard functions for the management of the hash table that must be used without making any changes to them (neither to the prototypes nor to their implementation provided);
-• The definition of the prototypes of the functions to be implemented.
+- The files needed to create the entire project;
+- The standard functions for the management of the hash table that must be used without making any changes to them (neither to the prototypes nor to their implementation provided);
+- The definition of the prototypes of the functions to be implemented.
 
 The files provided are as follows:
 • info.h (not to be changed)
@@ -71,6 +71,7 @@ Contains the prototypes of the functions required by the application:
 
 • The search function searches within a list for the account with the highest balance. (The function must be recursive)
 > void stampa_cc (current THash);
+
 • The print function, the information of all current accounts in the archive. The function does not return any value. (The function is already provided)
 
 • management_cc.c (to be completed)
