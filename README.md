@@ -74,8 +74,8 @@ Contains the prototypes of the functions required by the application:
 
 • The print function, the information of all current accounts in the archive. The function does not return any value. (The function is already provided)
 
-• management_cc.c (to be completed)
+• management_cc.c (to be completed)  
 Contains the implementation of the functions required by the application
 
-• current_accounts.c (to be completed)
-Contains the main funntion
+• current_accounts.c (to be completed)  
+Contains the main funntion.
