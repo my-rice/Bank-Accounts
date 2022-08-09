@@ -1,24 +1,24 @@
 # Bank-Accounts
 ## Exercise description
 Write a program for managing a bank's current accounts. Current accounts can be of 3 different types:
-• Type A: it is possible to have a negative balance of up to -2000 euros
-• Type B: it is possible to have a negative balance of up to -1500 euros
-• Type C: it is possible to have a negative balance of up to -1000 euros
+- Type A: it is possible to have a negative balance of up to -2000 euros
+- Type B: it is possible to have a negative balance of up to -1500 euros
+- Type C: it is possible to have a negative balance of up to -1000 euros
 
 The data relating to each current account are:
-• Current Account Code (A string of 8 characters), key field
-• Current account topology (One character [A / B / C])
-• Surname of the account holder (A string of 15 characters)
-• Name of the account holder (A string of 15 characters)
-• Number of payment operations (One whole)
-• Number of withdrawal operations (One integer)
-• Balance (A real)
+- Current Account Code (A string of 8 characters), key field
+- Current account topology (One character [A / B / C])
+- Surname of the account holder (A string of 15 characters)
+- Name of the account holder (A string of 15 characters)
+- Number of payment operations (One whole)
+- Number of withdrawal operations (One integer)
+- Balance (A real)
 
 ## Features to implement
 The program stores the data relating to the current accounts in a hash table with collision lists and a bucket of size 4. The hash function adds the ascii codes of the characters of the key and calculates the rest of the integer division by 4. The program realizes the following features:
-• Inserting a new current account. (Functionality already provided)
-• Withdrawal or deposit for a current account.
-• Calculation of the total number of deposit and withdrawal operations and the sum of the balances for all current accounts.
+- Inserting a new current account. (Functionality already provided)
+- Withdrawal or deposit for a current account.
+- Calculation of the total number of deposit and withdrawal operations and the sum of the balances for all current accounts.
 • Search for the current account with the largest balance.
 • Screen printing of current accounts. (Functionality already provided)
 
